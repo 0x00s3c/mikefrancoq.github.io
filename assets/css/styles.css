@@ -70,7 +70,7 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: var(--primary-color);
 }
 h1,h2,p{
   margin: 0;
@@ -94,7 +94,7 @@ img{
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--primary-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -108,7 +108,7 @@ img{
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
 }
 .section{
   padding-top: 3rem;
@@ -151,7 +151,7 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: var(--primary-color);
     transition: .5s;
   }
 }
@@ -172,13 +172,13 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
 }
 .nav__logo{
-  color: var(--second-color);
+  color: var(--secondary-color);
 }
 .nav__toggle{
-  color: var(--second-color);
+  color: var(--secondary-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -191,7 +191,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
 }
 
 /*=== Show menu ===*/
@@ -212,7 +212,7 @@ img{
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 .home__social{
   display: flex;
@@ -222,10 +222,10 @@ img{
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--secondary-color);
 }
 .home__social-icon:hover{
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 .home__img{
   position: absolute;
@@ -237,7 +237,7 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
   color: var(--primary-color);
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -288,7 +288,7 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var(--primary-color);
 }
 .skills__names{
   display: flex;
@@ -298,7 +298,7 @@ img{
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--primary-color);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
@@ -409,7 +409,7 @@ img{
     display: none;
   }
   .nav__link{
-    color: var(--second-color);
+    color: var(--secondary-color);
   }
 
   .home{
