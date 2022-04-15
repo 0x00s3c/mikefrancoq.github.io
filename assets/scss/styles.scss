@@ -118,7 +118,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: rgb(160, 153, 153);
+    background-color: #fff;
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -364,7 +364,7 @@ img{
 /* ===== FOOTER =====*/
 .footer{
     background-color: var(--second-color);
-    color: rgb(160, 153, 153);
+    color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
